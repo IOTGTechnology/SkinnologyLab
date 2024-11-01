@@ -1,0 +1,484 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #ffffff; /* Latar belakang putih */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan */
+}
+
+.navbar-brand {
+    color: #333; /* Warna teks untuk brand */
+    font-size: 1.5rem; /* Ukuran font untuk brand */
+}
+
+.navbar-brand span {
+    color: palevioletred; /* Warna untuk 'Lab' */
+}
+
+.nav-link {
+    color: palevioletred; /* Warna teks untuk link */
+    font-weight: 500; /* Ketebalan font */
+    padding: 10px 15px; /* Padding link */
+}
+.nav-link:hover {
+    color: pink; /* Warna Text Link Hover */
+}
+
+/* Hero Section Styles */
+.hero-section {
+    background: white, url('asset/Hero.jpg') no-repeat center center/cover;
+    padding: 100px 0;
+    color: #fff;
+    position: relative;
+}
+
+.hero-content {
+    z-index: 2;
+}
+
+.hero-title {
+    font-size: 40px;
+    color: black;         
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 15px;
+    color: black;        
+    margin-bottom: 30px;
+}
+
+.hero-btn {
+    background-color: palevioletred; /* Sesuaikan dengan warna merek Anda */
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.hero-btn a {
+    text-decoration: none;
+    color: white;
+}
+.hero-btn:hover {
+    background-color: pink; /* Warna saat hover */
+}
+.hero-btn a:hover {
+    background-color: pink;
+}
+
+.hero-features {
+    display: flex;
+    margin-top: 20px;
+}
+
+.hero-feature-item {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.hero-feature-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.hero-images {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-img-main {
+    width: 100%;
+    height: 100%; /* Memastikan gambar memenuhi area yang dialokasikan */
+    object-fit: cover; /* Memastikan gambar memenuhi area tanpa distorsi */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hero-features {
+    display: flex;
+    gap: 10px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-feature-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1rem;
+    color: black;
+}
+
+.hero-feature-icon {
+    color: palevioletred;
+    font-size: 1.5rem;
+}
+
+.floating-card {
+    position: absolute;
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+}
+
+.floating-card-1 {
+    top: 20%;
+    left: 10%;
+}
+
+.floating-card-2 {
+    bottom: 20%;
+    right: 10%;
+}
+
+.floating-card-icon {
+    font-size: 30px;
+    margin-right: 10px;
+}
+/* Hero Section End */
+
+
+/* Service Section */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Services Section */
+#services {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+#services h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+#services .service-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#services .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+#services .card-body {
+    padding: 30px;
+}
+
+#services .icon-feature {
+    font-size: 2.5rem;
+    color: palevioletred;
+}
+
+#services .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 15px;
+}
+
+#services .card-text {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+.custom-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* About Section CSS */
+.about-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Tambahkan gaya ini untuk gambar di bagian About */
+#about .img-fluid {
+    width: 100%; /* Membuat gambar memenuhi lebar 100% */
+    height: auto; /* Mempertahankan rasio aspek gambar */
+}
+
+/* Responsif untuk tablet */
+@media (max-width: 768px) {
+    .about-section h2 {
+        font-size: 2rem;
+    }
+
+    .about-section p {
+        font-size: 0.95rem;
+        padding: 0 20px;
+    }
+}
+
+/* Responsif untuk smartphone */
+@media (max-width: 480px) {
+    .about-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .about-section p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Umum untuk Testimoni Section */
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.bg-light {
+    background-color: #f8f9fa; /* Warna latar belakang light */
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Styling untuk judul Testimoni */
+h2 {
+    font-size: 2.5rem; /* Ukuran font judul */
+    color: #333; /* Warna teks */
+}
+
+/* Card styling */
+.card {
+    border: none; /* Menghilangkan border default */
+    transition: transform 0.3s; /* Animasi saat hover */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efek angkat saat hover */
+}
+
+/* Styling untuk gambar testimonial */
+.testimonial-img {
+    width: 100px; /* Ukuran gambar */
+    height: 100px; /* Tinggi sama dengan lebar untuk bulat */
+    border-radius: 50%; /* Membuat gambar bulat */
+    object-fit: cover; /* Memastikan gambar tetap proporsional */
+    border: 3px solid #00FDA; /* Warna border gambar (opsional) */
+    margin-bottom: 15px; /* Spasi bawah untuk gambar */
+}
+
+/* Styling untuk teks testimonial */
+.card-text {
+    font-size: 1rem; /* Ukuran font untuk testimonial */
+    color: #666; /* Warna teks testimonial */
+    margin-bottom: 15px; /* Spasi bawah untuk teks */
+}
+
+/* Menambahkan efek bayangan pada card */
+.custom-shadow {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+
+/* Styling untuk layout responsif */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2rem; /* Ukuran font judul pada layar kecil */
+    }
+    
+    .testimonial-img {
+        width: 80px; /* Ukuran gambar lebih kecil pada layar kecil */
+        height: 80px; /* Tinggi sama dengan lebar untuk bulat */
+    }
+}
+
+/* Styling Contact Section */
+.contact-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.contact-section .section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-section .section-subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .form-label {
+    font-weight: 500;
+    color: #555;
+}
+
+.contact-form .form-control {
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+}
+
+.contact-form button {
+    background-color: palevioletred;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: pink;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    .contact-section .section-title {
+        font-size: 2rem;
+    }
+
+    .contact-form {
+        padding: 20px;
+    }
+}
+
+/* Footer Section CSS */
+.footer-section {
+    background-color: black;
+    color: white;
+}
+
+.footer-section .footer-logo {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #00FDA;
+}
+
+.footer-section .footer-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #00FDA;
+}
+
+.footer-section p {
+    font-size: 0.95rem;
+    color: #ccc;
+}
+
+.footer-section .footer-link {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 0.95rem;
+    display: block;
+    margin-bottom: 5px;
+    transition: color 0.3s ease;
+}
+
+.footer-section .footer-link:hover {
+    color: #00FDA;
+}
+
+.footer-section .newsletter-form input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.footer-section .newsletter-form button {
+    background-color: palevioletred;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.footer-section .newsletter-form button:hover {
+    background-color: pink;
+}
+
+.footer-section .social-icons a {
+    color: palevioletred;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.footer-section .social-icons a:hover {
+    color: pink;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    font-size: 0.85rem;
+    color: #888;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .footer-section .social-icons {
+        justify-content: center;
+    }
+    .footer-section .newsletter-form button {
+        width: 100%;
+    }
+}
+
+/* Style untuk paragraf yang mengandung tautan */
+.mb-0 {
+    margin-bottom: 0; /* Menghilangkan margin bawah */
+    font-size: 1rem; /* Ukuran font */
+    color: white; /* Warna teks default */
+}
+
+/* Style untuk tautan */
+.mb-0 a {
+    text-decoration: none; /* Menghilangkan garis bawah dari tautan */
+    color: palevioletred; /* Warna teks tautan */
+    transition: color 0.3s ease; /* Efek transisi pada perubahan warna */
+}
+
+.mb-0 a:hover {
+    color: pink; /* Warna tautan saat dihover */
+    text-decoration: underline; /* Menambahkan garis bawah saat dihover */
+}
