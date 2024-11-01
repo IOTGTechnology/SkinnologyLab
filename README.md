@@ -15,7 +15,7 @@ Kontak dan Formulir Pesan: Bagian ini memudahkan calon pelanggan untuk menghubun
 Footer: Footer yang kaya dengan informasi, termasuk tautan cepat ke bagian penting, formulir berlangganan untuk update terbaru, serta tautan media sosial untuk interaksi lebih lanjut.
 
 # CONTENT DALAM WEBSITE
-GAMABAR : https://www.pexels.com
+GAMBAR : https://www.pexels.com
 ICON : https://feathericons.com
 
 # Demo Website👇
