@@ -18,5 +18,5 @@ Footer: Footer yang kaya dengan informasi, termasuk tautan cepat ke bagian penti
 GAMABAR : https://www.pexels.com
 ICON : https://feathericons.com
 
-# Demo Wensite👇
+# Demo Website👇
 https://iotgtechnology.github.io/SkinnologyLab/
