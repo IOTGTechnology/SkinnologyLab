@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Set penerima dan subjek email
-    $to = "internetofthingsindonesiagreen@gmail.com";  // Ganti dengan alamat email Anda
+    $to = "Masukan Email Kalian Disini";  // Ganti dengan alamat email Anda
     $subject = "Pesan Kontak dari " . $name;
 
     // Isi email
