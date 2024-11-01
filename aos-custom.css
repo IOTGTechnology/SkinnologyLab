@@ -1,0 +1,84 @@
+/* AOS Animations */
+[data-aos="fade-up"] {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+[data-aos="fade-up"].aos-animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+[data-aos="fade-down"] {
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+[data-aos="fade-down"].aos-animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+[data-aos="fade-left"] {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+[data-aos="fade-left"].aos-animate {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+[data-aos="fade-right"] {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+[data-aos="fade-right"].aos-animate {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+[data-aos="zoom-in"] {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+[data-aos="zoom-in"].aos-animate {
+    opacity: 1;
+    transform: scale(1);
+}
+
+[data-aos="zoom-out"] {
+    opacity: 0;
+    transform: scale(1.2);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+[data-aos="zoom-out"].aos-animate {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Custom styles for hero section */
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.hero-subtitle {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+.hero-btn {
+    margin-top: 2rem;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #00FDA;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.hero-btn:hover {
+    background-color: #00C8B5;
+}
